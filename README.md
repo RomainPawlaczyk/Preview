@@ -153,7 +153,7 @@ For this project, the VPS is used for hosting:
 The VPS is an <a href='https://www.ovhcloud.com/'>OVH VPS</a>, with **Ubuntu 20.04.1** LTS used as distribution.<p>&nbsp;</p>
 
 ### Heroku
-<a href='https://www.heroku.com/'>Heroku</a> is a **PaaS** (platform as a service) that enables developers to build, run, and operate applications entirely in the cloud.
+<a href='https://www.heroku.com/'>Heroku</a> is a **PaaS** (platform as a service) that enables developers to build, run, and operate applications entirely in the cloud.<br />
 For this project, Heroku has been used to host the [API Gateway](#api-gateway).<p>&nbsp;</p>
 
 ### MongoDB Atlas
