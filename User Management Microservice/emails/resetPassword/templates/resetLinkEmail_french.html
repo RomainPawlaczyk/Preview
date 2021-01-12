@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    h1{font-size: 2.1em;}
+    a{font-size: 1.5em;}
+    .subtitle{margin-bottom: 1.5em;font-size: 1.5em;font-weight: bold;}
+    .text{margin-bottom: 1.5em;font-size: 1.5em;}
+    #textLast{margin-bottom: 3em;margin-top: 0.5em;font-size: 1.5em;}
+    #logoDiv{display: flex;align-items: center;justify-content: center;flex-direction: column;}
+    #titleDiv{display: flex;align-items: center;justify-content: center;flex-direction: column;margin-bottom: 3em;}
+    #content{margin-top: 3em;}
+    #secondPart{margin-top: 4em;}
+    #signature{margin-top: 3.5em;color: #FF8C00}
+    #centerDiv{margin: auto;width: 70%;border: 3px solid #FF8C00;padding: 50px;}
+    #centerLogo{display: block;margin-left: auto;margin-right: auto;width: 100%;height: auto;}
+    #link{color: #FF8C00; font-size: 1em;}
+    #link:hover{color: #0645AD;}
+    #code{color: #FF8C00; font-size: 2em; letter-spacing: 0.4em;}
+    </style>
+  </head>
+  <body>
+    <div id='centerDiv'>
+      <div id='logoDiv'>
+        <img id='centerLogo' src='cid:unique@logo' alt='logo' style='width: 60%;height: auto; max-width: 17em'>
+      </div>
+      <div id='content'>
+        <div id='titleDiv'>
+          <h1>Lien de restauration de mot de passe</h1>
+        </div>
+        <div id='firstPart'>
+          <p class='subtitle'>Vous avez demandé une restauration de votre mot de passe pour votre compte sur Preview ?</p>
+          <p class='text'>Merci de copier le code suivant à <a id='link' href='HTML_LINK'>cette adresse</a> pour restaurer votre mot de passe</p>
+          <p id='code'>OTP_CODE</p>
+          <p id='textLast'>Ce lien sera accessible pendant 10 minutes seulement</p>
+        </div>
+        <div id='secondPart'>
+          <p class='subtitle'>Vous n'avez rien demandé ?</p>
+          <p class='text'>Merci d'ignorer cet email</p>
+        </div>
+        <div id='signature'>
+          <p class='subtitle'>L'équipe de Preview</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
